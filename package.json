@@ -1,0 +1,29 @@
+{
+  "name": "gdp-exercise",
+  "version": "1.0.0",
+  "description": "Open code test for GDP",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "posttest": "npm run lint",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fcostarodrigo/gdp-exercise.git"
+  },
+  "keywords": [
+    "exercise",
+    "node"
+  ],
+  "author": "Rodrigo Fernandes da Costa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fcostarodrigo/gdp-exercise/issues"
+  },
+  "homepage": "https://github.com/fcostarodrigo/gdp-exercise#readme",
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "mocha": "^3.3.0"
+  }
+}
