@@ -1,17 +1,17 @@
-{
-  "default": {
-    "id": null
+[
+  {
+    "id": "default"
   },
-  "UNILEVER": {
+  {
     "id": "UNILEVER"
   },
-  "APPLE": {
+  {
     "id": "APPLE"
   },
-  "NIKE": {
+  {
     "id": "NIKE"
   },
-  "FORD": {
+  {
     "id": "FORD"
   }
-}
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "customerId": "UNILEVER",
+    "packSale": {
+      "productId": "classic",
+      "size": 3
+    }
+  },
+  {
+    "customerId": "APPLE",
+    "reprice": {
+      "productId": "standout",
+      "price": 299.99
+    }
+  },
+  {
+    "customerId": "NIKE",
+    "wholesale": {
+      "productId": "premium",
+      "threshold": 4,
+      "price": 379.99
+    }
+  },
+  {
+    "customerId": "FORD",
+    "packSale": {
+      "productId": "classic",
+      "size": 5
+    },
+    "reprice": {
+      "productId": "standout",
+      "price": 309.99
+    },
+    "wholesale": {
+      "productId": "premium",
+      "threshold": 3,
+      "price": 389.99
+    }
+  }
+]

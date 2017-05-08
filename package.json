@@ -2,9 +2,10 @@
   "name": "gdp-exercise",
   "version": "1.0.0",
   "description": "Open code test for GDP",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "test": "mocha",
+    "start": "node src/index.js",
+    "test": "mocha --timeout 10000",
     "posttest": "npm run lint",
     "lint": "eslint ."
   },
@@ -23,7 +24,18 @@
   },
   "homepage": "https://github.com/fcostarodrigo/gdp-exercise#readme",
   "devDependencies": {
+    "@types/chai": "^3.5.2",
+    "@types/chai-http": "^0.0.30",
+    "@types/mongoose": "^4.7.11",
+    "chai": "^3.5.0",
+    "chai-http": "^3.0.0",
+    "chai-subset": "^1.5.0",
     "eslint": "^3.19.0",
     "mocha": "^3.3.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "mongoose": "^4.9.7"
   }
 }

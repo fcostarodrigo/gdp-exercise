@@ -7,8 +7,14 @@
       "name": "Test Program",
       "program": "${workspaceRoot}/node_modules/mocha/bin/_mocha",
       "args": [
+        "--timeout",
+        "10000",
         "test/test.js"
-      ]
+      ],
+      "env": {
+        "PASSWORD": "xxxx",
+        "PORT": "8888"
+      }
     },
     {
       "type": "node",

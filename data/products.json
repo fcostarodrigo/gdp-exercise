@@ -1,5 +1,5 @@
-{
-  "classic": {
+[
+  {
     "id": "classic",
     "name": "Classic Ad",
     "price": 269.99,
@@ -7,7 +7,7 @@
     "maxText": 255,
     "rank": 2
   },
-  "standout": {
+  {
     "id": "standout",
     "name": "Standout Ad",
     "price": 322.99,
@@ -15,7 +15,7 @@
     "maxText": 1024,
     "rank": 2
   },
-  "premium": {
+  {
     "id": "premium",
     "name": "Premium Ad",
     "price": 394.99,
@@ -23,4 +23,4 @@
     "maxText": 1024,
     "rank": 1
   }
-}
+]
