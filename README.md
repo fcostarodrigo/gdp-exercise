@@ -39,14 +39,19 @@ The database is hosted on [mlab.com](https://mlab.com/).
 ## API
 
 `GET /customers`: Get a list of customers, necessary to find the checkout entity.
+
 `GET /products`: Get a list of products, necessary to add items to a checkout.
+
 `GET /customers/:customerId/checkouts/active`: Get the active checkout of a customer.
+
 `POST /customers/:customerId/checkouts/active/items`: Add an item to a customer's checkout.
+
 `POST /customers/:customerId/checkouts`: Creates a new checkout for a customer, archiving the previous.
 
 ## Backdoors
 
 `GET /drop`: Drops the database.
+
 `GET /make`: Populates the database with the `.json` files in the data directory.
 
 ## License
